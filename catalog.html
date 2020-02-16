@@ -22,7 +22,49 @@
   <h1 class="visually-hidden">hotels</h1>
    <section class="filters">
     <h2 class="visually-hidden">Фильтр гостиниц</h2>
-        <-- Здесь будет форма -->
+    <form class="filters" method="get">
+      <fieldset>
+        <legend>инфраструктура:</legend>
+        <ul>
+          <li class="filter option">
+            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="бассейн" id="filter-бассейн" checked>
+            <label for="бассейн"></label>
+          </li>
+          <li class="filter option">
+            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="парковка" id="filter-парковка">
+            <label for="парковка"></label>
+          </li>
+          <li class="filter option">
+            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="wi-fi" id="filter-wi-fi">
+            <label for="wi-fi"></label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>тип жилья:</legend>
+        <ul>
+          <li class="filter option">
+            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="гостиница" id="filter-гостиница" checked>
+            <label for="гостиница"></label>
+          </li>
+          <li class="filter option">
+            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="мотель" id="filter-мотель" checked>
+            <label for="мотель"></label>
+          </li>
+          <li class="filter option">
+            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="апартаменты" id="filter-апартаменты" checked>
+            <label for="апартаменты"></label>
+          </li>
+        </ul>
+      </fieldset>
+    </section>
+    </form>
+    <section>
+      <h2>стоисмть в сутки</h2>
+    <div class="price-controls">
+                от <input class="min-price" type="text" value="0">
+                до <input class="max-price" type="text" value="3000">
+    </div>
    </section>
    <section class="catalog">
     <h2 class="visually-hidden">Список гостиниц</h2>
