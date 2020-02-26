@@ -1,151 +1,160 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Sedona</title>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sedona</title>
+</head>
+
 <body>
-<header>
- <nav>
-   <a href="index.html">
-     <img src="https://via.placeholder.com/494x254" alt="логотип sedona">
-   </a>
-   <ul>
-     <li><a href="info.html">Информация</a></li>
-     <li><a href="gallery.html">Фото и видео</a></li>
-     <li><a href="contacts.html">Карта Штата</a></li>
-     <li><a href="catalog.html">Гостиницы</a></li>
-   </ul>
- </nav>
-</header>
-<main>
-  <h1 class="visually-hidden">hotels</h1>
-   <section class="filters">
-    <h2 class="visually-hidden">Фильтр гостиниц</h2>
-    <form class="filters" method="get">
-      <fieldset>
-        <legend>инфраструктура:</legend>
-        <ul>
-          <li class="filter option">
-            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="бассейн" id="filter-бассейн" checked>
-            <label for="бассейн"></label>
-          </li>
-          <li class="filter option">
-            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="парковка" id="filter-парковка">
-            <label for="парковка"></label>
-          </li>
-          <li class="filter option">
-            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="wi-fi" id="filter-wi-fi">
-            <label for="wi-fi"></label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset>
-        <legend>тип жилья:</legend>
-        <ul>
-          <li class="filter option">
-            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="гостиница" id="filter-гостиница" checked>
-            <label for="гостиница"></label>
-          </li>
-          <li class="filter option">
-            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="мотель" id="filter-мотель" checked>
-            <label for="мотель"></label>
-          </li>
-          <li class="filter option">
-            <input class="visually-hidden filter-input-checkbox" type="checkbox" name="апартаменты" id="filter-апартаменты" checked>
-            <label for="апартаменты"></label>
-          </li>
-        </ul>
-      </fieldset>
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="https://via.placeholder.com/494x254" alt="logo sedona">
+      </a>
+      <ul>
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="gallery.html">Фото и видео</a></li>
+        <li><a href="contacts.html">Карта Штата</a></li>
+        <li><a href="catalog.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="visually-hidden">hotels</h1>
+    <section class="filters">
+      <h2 class="visually-hidden">hotel filters</h2>
+      <form class="filters" method="get">
+        <fieldset>
+          <legend>инфраструктура:</legend>
+          <ul>
+            <li class="filter option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="бассейн" id="filter-pool" checked>
+              <label for="filter-pool"></label>
+            </li>
+            <li class="filter option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="парковка" id="filter-parking">
+              <label for="filter-parking"></label>
+            </li>
+            <li class="filter option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="wi-fi" id="filter-wi-fi">
+              <label for="filter-wi-fi"></label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>тип жилья:</legend>
+          <ul>
+            <li class="filter option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="гостиница" id="filter-hotels" checked>
+              <label for="filter-hotels"></label>
+            </li>
+            <li class="filter option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="мотель" id="filter-motel" checked>
+              <label for="filter-motel"></label>
+            </li>
+            <li class="filter option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="апартаменты" id="filter-apartments" checked>
+              <label for="filter-apartments"></label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>стоисмть в сутки</legend>
+          <div class="price-controls">
+            от <input class="min-price" type="text" value="0">
+            до <input class="max-price" type="text" value="3000">
+          </div>
+        </fieldset>
+      </form>
     </section>
-    </form>
-    <section>
-      <h2>стоисмть в сутки</h2>
-    <div class="price-controls">
-                от <input class="min-price" type="text" value="0">
-                до <input class="max-price" type="text" value="3000">
+    <section class="catalog">
+      <h2 class="visually-hidden">Список гостиниц</h2>
+      <ul class="catalog-list">
+        <li class="catalog-item">
+          <div>
+            <img src="https://via.placeholder.com/100x80" alt="amara resort & spa">
+          </div>
+          <div>
+            <h3>amara resort & spa</h3>
+            <p>
+              <span>гостиница</span>
+              <span>от 4000 руб</span>
+            </p>
+            <div>
+              <a href="#">подробнее</a>
+              <a href="#">забронировать</a>
+            </div>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/100x80" alt="amara resort & spa stars">
+            <p>
+              рейтинг:8,5
+            </p>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <div>
+            <img src="https://via.placeholder.com/100x80" alt="desert quail inn">
+          </div>
+          <div>
+            <h3>desert quail inn</h3>
+            <p>
+              <span>мотель</span>
+              <span>от 3000 руб</span>
+            </p>
+            <div>
+              <a href="#">подробнее</a>
+              <a href="#">забронировать</a>
+            </div>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/100x80" alt="desert quail inn stars">
+            <p>
+              рейтинг:8,9
+            </p>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <div>
+            <img src="https://via.placeholder.com/100x80" alt="villas at poco diablo">
+          </div>
+          <div>
+            <h3>desert quail inn</h3>
+            <p>
+              <span>мотель</span>
+              <span>от 3000 руб</span>
+            </p>
+            <div>
+              <a href="#">подробнее</a>
+              <a href="#">забронировать</a>
+            </div>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/100x80" alt="villas at poco diablo stars">
+            <p>
+              рейтинг:9,2
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>#visitsedona
+      Тел: +7(495)666-02-66
+    </p>
+    <div>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a herf="#">Facebook</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
     </div>
-   </section>
-   <section class="catalog">
-    <h2 class="visually-hidden">Список гостиниц</h2>
-     <ul class="catalog-list">
-     <li class="catalog-item">
-       <div>
-         <img src="https://via.placeholder.com/100x80" alt="amara resort & spa">
-       </div>
-       <div>
-         <h3>amara resort & spa</h3>
-         <p>
-           <span>гостиница</span>
-           <span>от 4000 руб</span>
-         </p>
-        <div>
-         <a href="#">подробнее</a>
-         <a href="#">забронировать</a>
-        </div>
-       </div>
-       <div>
-        <img src="https://via.placeholder.com/100x80" alt="amara resort & spa stars">
-        <img src="https://via.placeholder.com/100x80" alt="amara resort & spa raiting">
-      </div>
-     </li>
-     <li class="catalog-item">
-       <div>
-         <img src="https://via.placeholder.com/100x80" alt="desert quail inn">
-       </div>
-       <div>
-         <h3>desert quail inn</h3>
-         <p>
-           <span>мотель</span>
-           <span>от 3000 руб</span>
-         </p>
-        <div>
-          <a href="#">подробнее</a>
-          <a href="#">забронировать</a>
-        </div>
-      </div>
-      <div>
-        <img src="https://via.placeholder.com/100x80" alt="desert quail inn stars">
-        <img src="https://via.placeholder.com/100x80" alt="desert quail inn raiting">
-      </div>
-     </li>
-     <li class="catalog-item">
-       <div>
-         <img src="https://via.placeholder.com/100x80" alt="villas at poco diablo">
-       </div>
-       <div>
-         <h3>desert quail inn</h3>
-         <p>
-           <span>мотель</span>
-           <span>от 3000 руб</span>
-         </p>
-        <div>
-          <a href="#">подробнее</a>
-          <a href="#">забронировать</a>
-        </div>
-      </div>
-      <div>
-        <img src="https://via.placeholder.com/100x80" alt="villas at poco diablo stars">
-        <img src="https://via.placeholder.com/100x80" alt="villas at poco diablo raiting">
-      </div>
-     </li>
-    </ul>
-  </section>
-</main>
-<footer>
-  <p>#visitsedona
-  Тел: +7(495)666-02-66
-  </p>
-  <div>
-    <ul>
-      <li><a href="#">Twitter</a></li>
-      <li><a herf="#">Facebook</a></li>
-      <li><a href="#">Youtube</a></li>
-    </ul>
-  </div>
-  <p> website by
-    <a href= "#"><img src="https://via.placeholder.com/406x141" alt="логотип html academy"></a>
-  </p>
-</footer>
+    <p> website by
+      <a href="#"><img src="https://via.placeholder.com/406x141" alt="логотип html academy"></a>
+    </p>
+  </footer>
 </body>
+
 </html>
