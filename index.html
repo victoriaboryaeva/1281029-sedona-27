@@ -101,16 +101,22 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section class="booking">
       <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <p class="booking-info">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне</p>
       <button type="button">Поиск гостиницы в седоне</button>
       <div>
-        <p>Дата заезда:<span>24 апреля 2017</span></p>
-        <p>Дата выезда:<span>4 июля 2017</span></p>
-        <p>Взрослые:<span>2</span></p>
-        <p>Дети:<span>0</span></p>
+        <form class="booking" action="https://echo.index.html" method="post">
+          <p class="booking-item">Дата заезда:<label for="check-in"
+             <input id="check-in" type="text" name="date-check-in" value= placeholder="24/04/2017"></p>
+             <p class="booking-item">Дата выезда:<label for="check-out"
+             <input id="check-out" type="text" name="date-check-out" value= placeholder="24/04/2017"></p>
+             <p class="booking-item">Взрослые:<label for="adult-guests"
+             <input id="adult-guests" type="text" name="guests-adult" value= placeholder="2"></p>
+             <p class="booking-item">Дети:<label for="children-guests"</label>
+             <input id="children-guests" type="text" name="gyuests-children" value= placeholder="0"></p>
         <button>Найти</button>
+      </form>
       </div>
     </section>
     <section>
