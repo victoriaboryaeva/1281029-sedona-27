@@ -30,16 +30,16 @@
           <legend>инфраструктура:</legend>
           <ul>
             <li class="filter option">
-              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="бассейн" id="filter-pool" checked>
-              <label for="filter-pool"></label>
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="pool" id="filter-pool" checked>
+              <label for="filter-pool">бассейн</label>
             </li>
             <li class="filter option">
-              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="парковка" id="filter-parking">
-              <label for="filter-parking"></label>
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="parking" id="filter-parking">
+              <label for="filter-parking">парковка</label>
             </li>
             <li class="filter option">
               <input class="visually-hidden filter-input-checkbox" type="checkbox" name="wi-fi" id="filter-wi-fi">
-              <label for="filter-wi-fi"></label>
+              <label for="filter-wi-fi">wi-fi</label>
             </li>
           </ul>
         </fieldset>
@@ -47,27 +47,36 @@
           <legend>тип жилья:</legend>
           <ul>
             <li class="filter option">
-              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="гостиница" id="filter-hotels" checked>
-              <label for="filter-hotels"></label>
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="hotel" id="filter-hotels" checked>
+              <label for="filter-hotels">гостиница</label>
             </li>
             <li class="filter option">
-              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="мотель" id="filter-motel" checked>
-              <label for="filter-motel"></label>
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="motel" id="filter-motel" checked>
+              <label for="filter-motel">мотель</label>
             </li>
             <li class="filter option">
-              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="апартаменты" id="filter-apartments" checked>
-              <label for="filter-apartments"></label>
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="apartments" id="filter-apartments" checked>
+              <label for="filter-apartments">апартаменты</label>
             </li>
           </ul>
         </fieldset>
         <fieldset>
-          <legend>стоисмть в сутки</legend>
+          <div class="filter-range-title">Стоимость в сутки (р):</div>
           <div class="price-controls">
-            от <input class="min-price" type="text" value="0">
-            до <input class="max-price" type="text" value="3000">
+            <label class="min-price">от <input type="number" name="min-price" value="0"></label>
+            <label class="max-price">до <input type="number" name="max-price" value="3000"></label>
           </div>
-        </fieldset>
-      </form>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+          <button class="btn-transparent" type="submit">Показать</button>
+        </div>
+      </fieldset>
+     </form>
     </section>
     <section class="catalog">
       <h2 class="visually-hidden">Список гостиниц</h2>
@@ -147,9 +156,9 @@
     </p>
     <div>
       <ul>
-        <li><a href="#">Twitter</a></li>
-        <li><a herf="#">Facebook</a></li>
-        <li><a href="#">Youtube</a></li>
+        <li><a href="htttps://twitter.com/"aria-label=Twitter</a></li>
+        <li><a href="htttps://facebook.com/"aria-label=Facebook</a></li>
+        <li><a href="htttps://youtube.com/"aria-label=YouTube</a></li>
       </ul>
     </div>
     <p> website by
@@ -157,5 +166,4 @@
     </p>
   </footer>
 </body>
-
 </html>
