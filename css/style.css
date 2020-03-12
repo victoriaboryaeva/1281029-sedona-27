@@ -20,11 +20,18 @@ a {
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
-  color: #ffffff;
+  color: #000000;
 
-  background-color: #000000;
+  background-color: #ffffff;
 }
-.site-navigation,
-.user-navigation {
+.site-navigation, {
   list-style: none;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,{
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  display: none;
 }
