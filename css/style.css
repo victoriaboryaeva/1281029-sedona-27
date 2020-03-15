@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "PT Sans";
+  font-family: "PT Sans", Arial, sans-sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -10,13 +10,15 @@ body {
   text-transform: uppercase;
 
   background-color: #ffffff;
-  background-image: url("..img/background-photo.jpg");
+  background-image: url("../img/background-photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
+
 a {
   text-decoration: none;
 }
+
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
@@ -24,9 +26,11 @@ a {
 
   background-color: #ffffff;
 }
+
 .site-navigation, {
   list-style: none;
 }
+
 .site-navigation a:hover,
 .site-navigation a:focus,{
   background-color: #ffffff;
@@ -35,18 +39,24 @@ a {
 .visually-hidden {
   display: none;
 }
+
 .main-heading {
   font-family: "PT Sans";
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
 }
+
 .real-city {
-color: #ffffff
+color: #ffffff;
+background-color: #81b3d2;
 }
+
 .devil-bridge {
-color: #ffffff
+color: #ffffff;
+background-color: #81b3d2;
 }
+
 .button {
   font: inherit;
 
@@ -58,10 +68,12 @@ color: #ffffff
   background-color: #81b3d2;
   border: none;
 }
+
 .filters {
-color: #ffffff
+color: #ffffff;
 }
-..filter-range-title {
+
+.filter-range-title {
   margin-bottom: 9px;
 
   font-weight: 600;
