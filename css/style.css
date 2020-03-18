@@ -10,7 +10,7 @@ body {
   text-transform: uppercase;
 
   background-color: #ffffff;
-  background-image: url("../img/background-photo.jpg");
+  background-image: url("../img/background-photo.jpg") url("../img/intro-welcome.svg");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -45,6 +45,7 @@ a {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  text-align: center;
 }
 
 .real-city {
@@ -57,6 +58,11 @@ color: #ffffff;
 background-color: #81b3d2;
 }
 
+.sedona-top-picks {
+color: #ffffff;
+background-color: #eeeeee;
+}
+
 .button {
   font: inherit;
 
@@ -65,7 +71,21 @@ background-color: #81b3d2;
   vertical-align: middle;
   text-transform: uppercase;
 
-  background-color: #81b3d2;
+  background-color: #766357;
+  border: none;
+}
+
+.button:hover,{
+  background-color: #604e43;
+}
+.button:focus,{
+  background-color: #503e33;
+}
+
+.booking-item input {
+  font: inherit;
+
+  background-color: #f2f2f2;
   border: none;
 }
 
@@ -198,4 +218,34 @@ color: #ffffff;
   color: #000000;
 
   background: #ffffff;
+}
+
+
+
+.footer {
+  color: #ffffff;
+
+  background-color: #212121;
+  background-image: url("img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
 }
