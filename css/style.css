@@ -89,6 +89,15 @@ background-color: #eeeeee;
   border: none;
 }
 
+.inner-page {
+  color: #000000;
+
+  background-color: #fefefe;
+  background-image: url("..img/filter-background.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
 .filters {
 color: #ffffff;
 }
@@ -223,11 +232,10 @@ color: #ffffff;
 
 
 .footer {
-  color: #ffffff;
+  color: #000000;
 
-  background-color: #212121;
-  background-image: url("img/pattern-dark.jpg");
-  background-position: 0 0;
+  background-color: #fefefe;
+  background-position: top center;
   background-repeat: repeat;
 }
 
@@ -248,4 +256,22 @@ color: #ffffff;
 
 .footer-social ul {
   list-style: none;
+}
+
+.Twitter{
+  background-image: url("../img/twitter.svg");
+  background-position: top center;
+  background-repeat: repeat;
+}
+
+.Facebook{
+  background-image: url("../img/fb-icon.svg");
+  background-position: top center;
+  background-repeat: repeat;
+}
+
+.YouTube{
+  background-image: url("../img/youtube.svg");
+  background-position: top center;
+  background-repeat: repeat;
 }
