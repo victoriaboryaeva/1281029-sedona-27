@@ -37,7 +37,14 @@ a {
 }
 
 .visually-hidden {
-  display: none;
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
 }
 
 .main-heading {
@@ -51,16 +58,19 @@ a {
 .real-city {
 color: #ffffff;
 background-color: #81b3d2;
+display: flex;
 }
 
 .devil-bridge {
 color: #ffffff;
 background-color: #81b3d2;
+display: flex;
 }
 
 .sedona-top-picks {
 color: #ffffff;
 background-color: #eeeeee;
+display: flex;
 }
 
 .button {
@@ -258,20 +268,11 @@ color: #ffffff;
   list-style: none;
 }
 
-.Twitter{
-  background-image: url("../img/twitter.svg");
-  background-position: top center;
-  background-repeat: repeat;
-}
-
-.Facebook{
-  background-image: url("../img/fb-icon.svg");
-  background-position: top center;
-  background-repeat: repeat;
-}
-
-.YouTube{
-  background-image: url("../img/youtube.svg");
-  background-position: top center;
-  background-repeat: repeat;
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: centre;
+  width: 90px;
+  height:90px;
+  background-color: #81b3d2
 }
