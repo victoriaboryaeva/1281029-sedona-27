@@ -37,14 +37,14 @@ a {
 }
 
 .visually-hidden {
-	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	padding:0 !important;
-	border:0 !important;
-	height: 1px !important;
-	width: 1px !important;
-	overflow: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 .main-heading {
@@ -56,43 +56,42 @@ a {
 }
 
 .real-city {
-color: #ffffff;
-background-color: #81b3d2;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 400px;
-height: 256px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 256px;
 }
 
 .devil-bridge {
-color: #ffffff;
-background-color: #81b3d2;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 400px;
-height: 256px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 256px;
 }
 
 .sedona-top-picks {
-color: #ffffff;
-background-color: #eeeeee;
-display: flex;
-justify-content: center;
-align-items: center;
+  color: #ffffff;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
-  font: inherit;
-
-  text-align: center;
+  display: flex;
   color: #ffffff;
+  justify-content: center;
+  align-items: center;
   vertical-align: middle;
-  text-transform: uppercase;
-
-  background-color: #766357;
-  border: none;
+  width: 568px;
+  height: 86px;
+  background-color: #766357
 }
 
 .button:hover,{
@@ -136,7 +135,7 @@ align-items: center;
 }
 
 .filters {
-color: #ffffff;
+  color: #ffffff;
 }
 
 .filter-range-title {
