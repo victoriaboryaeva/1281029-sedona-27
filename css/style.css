@@ -10,9 +10,6 @@ body {
   text-transform: uppercase;
 
   background-color: #ffffff;
-  background-image: url("../img/background-photo.jpg") url("../img/intro-welcome.svg");
-  background-position: top center;
-  background-repeat: no-repeat;
 }
 
 a {
@@ -45,6 +42,12 @@ a {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+.main-hero {
+  background-image: url("../img/background-photo.jpg"), url("../img/intro-welcome.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .main-heading {
@@ -93,12 +96,28 @@ a {
   height: 86px;
   background-color: #766357
 }
-
 .button:hover,{
   background-color: #604e43;
 }
 .button:focus,{
   background-color: #503e33;
+}
+
+.button-search {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 458px;
+  height: 58px;
+  background-color: #81b3d2
+}
+.button-search:hover,{
+  background-color: #669ec0;
+}
+.button-search:focus,{
+  background-color: #669ec0;
 }
 
 .booking-input input {
@@ -129,13 +148,13 @@ a {
   color: #000000;
 
   background-color: #fefefe;
-  background-image: url("..img/filter-background.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
 
 .filters {
   color: #ffffff;
+  background-image: url("../img/filter-background.jpg");
 }
 
 .filter-range-title {
