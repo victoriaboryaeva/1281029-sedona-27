@@ -149,7 +149,6 @@ a {
 
   background-color: #fefefe;
   background-position: 0 0;
-  background-repeat: repeat;
 }
 
 .filters {
@@ -285,6 +284,7 @@ a {
 }
 
 .button-details {
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,6 +295,7 @@ a {
 }
 
 .button-book {
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
