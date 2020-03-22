@@ -59,18 +59,28 @@ a {
 color: #ffffff;
 background-color: #81b3d2;
 display: flex;
+justify-content: center;
+align-items: center;
+width: 400px;
+height: 256px;
 }
 
 .devil-bridge {
 color: #ffffff;
 background-color: #81b3d2;
 display: flex;
+justify-content: center;
+align-items: center;
+width: 400px;
+height: 256px;
 }
 
 .sedona-top-picks {
 color: #ffffff;
 background-color: #eeeeee;
 display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .button {
@@ -92,11 +102,28 @@ display: flex;
   background-color: #503e33;
 }
 
-.booking-item input {
+.booking-input input {
   font: inherit;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f2f2f2;
   border: none;
+  width: 346px;
+  height: 38px;
+}
+
+.booking-guest input {
+  font: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: none;
+  width: 38px;
+  height: 38px;
 }
 
 .inner-page {
@@ -271,8 +298,9 @@ color: #ffffff;
 .social-button {
   display: flex;
   justify-content: center;
-  align-items: centre;
-  width: 90px;
-  height:90px;
+  align-items: center;
+  vertical-align: middle;
+  width: 46px;
+  height:48px;
   background-color: #81b3d2
 }
