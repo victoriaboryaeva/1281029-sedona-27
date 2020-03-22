@@ -266,7 +266,25 @@ color: #ffffff;
   background: #ffffff;
 }
 
+.button-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 110px;
+  height: 27px;
+  background-color: #81b3d2
+}
 
+.button-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 110px;
+  height: 27px;
+  background-color: #766357
+}
 
 .footer {
   color: #000000;
@@ -301,6 +319,6 @@ color: #ffffff;
   align-items: center;
   vertical-align: middle;
   width: 46px;
-  height:48px;
+  height: 48px;
   background-color: #81b3d2
 }
