@@ -29,12 +29,12 @@ a {
   background-color: #ffffff;
 }
 
-.site-navigation, {
+.site-navigation {
   list-style: none;
 }
 
 .site-navigation a:hover,
-.site-navigation a:focus,{
+.site-navigation a:focus {
   background-color: #ffffff;
 }
 
@@ -50,7 +50,7 @@ a {
 }
 
 .main-hero {
-  background-image: url("../img/background-photo.jpg"), url("../img/intro-welcome.svg");
+  background-image: url("img/background-photo.jpg"), url("img/svg-sedona/intro-welcome.svg");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -91,6 +91,14 @@ a {
   align-items: center;
 }
 
+.more-top-picks {
+  color: #ffffff;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button {
   display: flex;
   color: #ffffff;
@@ -101,10 +109,10 @@ a {
   height: 86px;
   background-color: #766357
 }
-.button:hover,{
+.button:hover {
   background-color: #604e43;
 }
-.button:focus,{
+.button:focus {
   background-color: #503e33;
 }
 
@@ -118,10 +126,10 @@ a {
   height: 58px;
   background-color: #81b3d2;
 }
-.button-search:hover,{
+.button-search:hover {
   background-color: #669ec0;
 }
-.button-search:focus,{
+.button-search:focus {
   background-color: #669ec0;
 }
 
