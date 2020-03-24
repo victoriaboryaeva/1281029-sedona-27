@@ -99,6 +99,17 @@ a {
   align-items: center;
 }
 
+.booking-form {
+  display: flex;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 568px;
+  height: 395px;
+  background-color: #ffffff
+}
+
 .button {
   display: flex;
   color: #ffffff;
