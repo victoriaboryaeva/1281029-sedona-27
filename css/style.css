@@ -99,15 +99,40 @@ a {
   align-items: center;
 }
 
-.booking-form {
+.booking {
   display: flex;
-  color: #000000;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  vertical-align: middle;
+}
+
+.booking-from-wrapper{
+  position: relative;
+}
+
+.booking-form-button {
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #503e33;
+  border: none;
+  padding: 31px 0px;
   width: 568px;
-  height: 395px;
-  background-color: #ffffff
+}
+
+.booking-form {
+  /* display: none; */
+  position: absolute;
+  top: 86px;
+  left: 0px;
+  box-sizing: border-box;
+  width: 568px;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.booking-people {
+  display: flex;
+  flex-direction: row;
 }
 
 .button {
