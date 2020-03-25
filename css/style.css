@@ -137,14 +137,26 @@ a {
 }
 
 .sedona-top-picks {
-  color: #000000;
-  background-color: #eeeeee;
   display: flex;
-  justify-content: center;
-  height: 256px;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #000000;
+  background-color: #ffffff;
   list-style: none;
+  margin: 0;
+  padding: 0 20px;
 }
 
+.sedona-top-picks_item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sedona-top-picks_text {
+  text-align: center;
+}
 
 .more-top-picks {
   color: #000000;
