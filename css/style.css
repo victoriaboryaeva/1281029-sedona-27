@@ -437,6 +437,22 @@ a {
   justify-content: space-evenly;
 }
 
+.sorting {
+
+}
+
+.results-button {
+  border:none;
+  background: transparent;
+}
+
+.results-button:hover {
+  color: #604e43;
+}
+.results-button:focus {
+  color: #503e33;
+}
+
 .results-section {
   color: #000000;
   display: flex;
