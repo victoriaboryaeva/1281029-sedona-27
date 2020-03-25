@@ -106,26 +106,34 @@ a {
   width: 100%;
 }
 
+.top-section-main{
+  display:flex;
+}
+
 .real-city {
   color: #ffffff;
   background-color: #81b3d2;
   display: flex;
+  padding: 0 12px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   width: 400px;
-  height: 256px;
+  text-align: center;
 }
 
 .devil-bridge {
   color: #ffffff;
   background-color: #81b3d2;
   display: flex;
+  padding: 0 12px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   width: 400px;
-  height: 256px;
+  text-align: center;
 }
 
 .sedona-top-picks {
@@ -133,9 +141,8 @@ a {
   background-color: #eeeeee;
   display: flex;
   justify-content: center;
-  align-items: center;
-  list-style:none;
   height: 256px;
+  list-style: none;
 }
 
 
@@ -144,7 +151,7 @@ a {
   background-color: #eeeeee;
   display: flex;
   justify-content: center;
-  align-items: center;
+  height: 256px;
   list-style: none;
 }
 
@@ -161,7 +168,13 @@ a {
 }
 
 .booking-info {
-
+  display: flex;
+  text-align: center;
+  font-weight: 400;
+  justify-content: space-evenly;
+  padding: 10px 0 30px;
+  font-size: 14px;
+  color: #333333;
 }
 
 .booking-from-wrapper{
@@ -512,6 +525,7 @@ a {
   background-position: top center;
   background-repeat: repeat;
   padding: 0 74px;
+  opacity: 70%;
 }
 
 .footer-contacts-phone {
@@ -555,6 +569,8 @@ a {
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .footer-author {
