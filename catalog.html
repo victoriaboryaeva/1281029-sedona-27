@@ -11,7 +11,7 @@
   <div class="container">
     <header class="main-header">
       <nav class="main-navigation">
-        <a href="index.html">
+        <a class="logo" href="index.html">
           <svg viewBox="0 0 138 70" xmlns="http://www.w3.org/2000/svg" width="140" height="71" alt="Седона">
             <path d="M138 0H0l59.51 65.68c5.22 5.761 13.76 5.761 18.98 0z" fill="#81b3d3"/>
             <path d="M36.687.457l32.148 37.879 32.02-37.65z" fill="#23a9e1"/>
@@ -36,7 +36,7 @@
       <h1 class="visually-hidden">hotels</h1>
       <section class="filters">
         <h2 class="visually-hidden">hotel filters</h2>
-        <form class="filters" method="get">
+        <form class="filters-form" method="get">
           <fieldset>
             <legend>инфраструктура:</legend>
             <ul>
@@ -88,6 +88,19 @@
         </fieldset>
       </form>
     </section>
+      <section class="search-result">
+        <span>найдено: 3</span>
+        <div>
+          <p>сортировка</p>
+          <p>по цене</p>
+          <p>по типу</p>
+          <p>по рейтенгу</p>
+        </div>
+        <div>
+          <img class="arrow" src="img/svg-sedona/icon-down-dir.svg" width="20" height="20" alt="search arrows">
+          <img class="arrow" src="img/svg-sedona/icon-up-dir.svg" width="20" height="20" alt="search arrows">
+        </div>
+      </section>
     <section class="catalog">
       <h2 class="visually-hidden">Список гостиниц</h2>
       <ul class="catalog-list">
@@ -106,7 +119,7 @@
               <a class="button-book" href="#">забронировать</a>
             </div>
           </div>
-          <div>
+          <div class="hotel-rating">
             <img src="img/svg-sedona/star.svg" alt="amara resort & spa stars">
             <img src="img/svg-sedona/star.svg" alt="amara resort & spa stars">
             <img src="img/svg-sedona/star.svg" alt="amara resort & spa stars">
@@ -131,7 +144,7 @@
               <a class="button-book" href="#">забронировать</a>
             </div>
           </div>
-          <div>
+          <div class="hotel-rating">
             <img src="img/svg-sedona/star.svg" alt="desert quail inn rating">
             <img src="img/svg-sedona/star.svg" alt="desert quail inn rating">
             <img src="img/svg-sedona/star.svg" alt="desert quail inn rating">
@@ -155,7 +168,7 @@
               <a class="button-book" href="#">забронировать</a>
             </div>
           </div>
-          <div>
+          <div class="hotel-rating">
             <img src="img/svg-sedona/star.svg" alt="villas at poco diablo stars">
             <img src="img/svg-sedona/star.svg" alt="villas at poco diablo stars">
             <p class="rating-hotel">
