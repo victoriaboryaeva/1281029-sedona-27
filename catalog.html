@@ -25,10 +25,10 @@
           </svg>
         </a>
         <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="gallery.html">Фото и видео</a></li>
-          <li><a href="contacts.html">Карта Штата</a></li>
-          <li><a href="catalog.html">Гостиницы</a></li>
+          <li class="nav-button"><a href="info.html">Информация</a></li>
+          <li class="nav-button"><a href="gallery.html">Фото и видео</a></li>
+          <li class="nav-button"><a href="contacts.html">Карта Штата</a></li>
+          <li class="nav-button"><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -37,7 +37,7 @@
       <section class="filters">
         <h2 class="visually-hidden">hotel filters</h2>
         <form class="filters-form" method="get">
-          <fieldset>
+          <fieldset class="top-filter">
             <legend>инфраструктура:</legend>
             <ul>
               <li class="filter option">
@@ -54,7 +54,7 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="top-filter">
             <legend>тип жилья:</legend>
             <ul>
               <li class="filter option">
@@ -71,7 +71,7 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="top-filter">
             <div class="filter-range-title">Стоимость в сутки (р):</div>
             <div class="price-controls">
               <label class="min-price">от <input type="number" name="min-price" value="0"></label>
@@ -90,7 +90,7 @@
     </section>
       <section class="search-result">
         <span>найдено: 3</span>
-        <div>
+        <div class="results-section">
           <p>сортировка</p>
           <p>по цене</p>
           <p>по типу</p>
